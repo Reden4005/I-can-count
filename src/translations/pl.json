@@ -1,3 +1,9 @@
 {
-  "description": "Ucz sie React"
+  "headerInfo": {
+    "part1": "Witaj!",
+    "part2": "Czego",
+    "part3": "się",
+    "part4": "dziś",
+    "part5": "uczymy?"
+  }
 }

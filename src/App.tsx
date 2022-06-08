@@ -1,14 +1,17 @@
-import "./App.css";
-import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
+import { Header, Button, Layout } from "./components";
+import { ThemeProvider } from "@mui/material/styles";
+import { theme } from "./configs/ThemeConfigs";
 
-function App() {
-  const { t } = useTranslation();
-  return (
+const App: React.FC = () => (
+  <ThemeProvider theme={theme}>
     <Suspense fallback='Loading...'>
-      <div className='App'>{t("description")}</div>
+      <Layout>
+        <Header />
+        <Button text='Dodawanie' buttoncolor='pastelYellow' textcolor='pastelViolet' />
+      </Layout>
     </Suspense>
-  );
-}
+  </ThemeProvider>
+);
 
 export default App;

@@ -1,3 +1,9 @@
 {
-  "description": "Learn React"
+  "headerInfo": {
+    "part1": "Welcome!",
+    "part2": "What",
+    "part3": "we are",
+    "part4": "learning",
+    "part5": "today?"
+  }
 }
