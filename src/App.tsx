@@ -1,17 +1,17 @@
 import { Suspense } from "react";
-import { Header, Button, Layout } from "./components";
 import { ThemeProvider } from "@mui/material/styles";
 import { theme } from "./configs/ThemeConfigs";
+import { BrowserRouter } from "react-router-dom";
+import { Routing } from "./utils";
 
 const App: React.FC = () => (
-  <ThemeProvider theme={theme}>
-    <Suspense fallback='Loading...'>
-      <Layout>
-        <Header />
-        <Button text='Dodawanie' buttoncolor='pastelYellow' textcolor='pastelViolet' />
-      </Layout>
-    </Suspense>
-  </ThemeProvider>
+  <BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <Suspense fallback='Loading...'>
+        <Routing />
+      </Suspense>
+    </ThemeProvider>
+  </BrowserRouter>
 );
 
 export default App;
