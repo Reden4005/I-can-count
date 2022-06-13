@@ -5,5 +5,12 @@
     "part3": "się",
     "part4": "dziś",
     "part5": "uczymy?"
-  }
+  },
+  "operations": {
+    "Addition": "dodawanie",
+    "Substraction": "odejmowanie",
+    "Multiplication": "mnożenie",
+    "Division": "dzielenie"
+  },
+  "Chart": "Wykres"
 }

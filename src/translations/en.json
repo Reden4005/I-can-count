@@ -5,5 +5,12 @@
     "part3": "we are",
     "part4": "learning",
     "part5": "today?"
-  }
+  },
+  "operations": {
+    "Addition": "addition",
+    "Substraction": "substraction",
+    "Multiplication": "multiplication",
+    "Division": "division"
+  },
+  "Chart": "Chart"
 }
