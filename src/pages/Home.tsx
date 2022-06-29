@@ -1,10 +1,13 @@
-import { Button, Header, Layout } from "../components";
+import { useTranslation } from "react-i18next";
+import { Header, Layout, Menu } from "../components";
 
 export const Home: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Layout>
       <Header />
-      <Button text='Dodawanie' buttoncolor='pastelYellow' textcolor='pastelViolet' />
+      <Menu />
     </Layout>
   );
 };

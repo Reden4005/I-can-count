@@ -2,7 +2,7 @@
   "headerInfo": {
     "part1": "Welcome!",
     "part2": "What",
-    "part3": "we are",
+    "part3": "are we",
     "part4": "learning",
     "part5": "today?"
   },
@@ -12,5 +12,12 @@
     "Multiplication": "multiplication",
     "Division": "division"
   },
-  "Chart": "Chart"
+  "Chart": "Chart",
+  "UpperLimit": {
+    "part1": "Select",
+    "part2": "the upper",
+    "part3": "limit"
+  },
+  "Cancel": "Cancel",
+  "Confirm": "Confirm"
 }

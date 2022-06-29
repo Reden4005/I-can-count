@@ -5,7 +5,8 @@ export const HeaderBox = styled(Box)(({ theme }) => ({
   display: "flex",
   marginTop: "5%",
   justifyContent: "center",
-  gap: "10px"
+  gap: "10px",
+  flexWrap: "wrap"
 }));
 
 export const Text = styled(Typography)(({ theme }) => ({
