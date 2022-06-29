@@ -12,5 +12,12 @@
     "Multiplication": "mnożenie",
     "Division": "dzielenie"
   },
-  "Chart": "Wykres"
+  "Chart": "Wykres",
+  "UpperLimit": {
+    "part1": "Podaj",
+    "part2": "górną",
+    "part3": "granicę"
+  },
+  "Cancel": "Anuluj",
+  "Confirm": "Zatwierdź"
 }

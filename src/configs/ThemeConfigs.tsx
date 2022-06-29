@@ -8,6 +8,7 @@ declare module "@mui/material/styles" {
     color4: string; // Blue
     color5: string; // Green
     color6: string; // Orange
+    shadow: string;
   }
 
   interface PaletteOptions {
@@ -17,6 +18,7 @@ declare module "@mui/material/styles" {
     color4: string;
     color5: string;
     color6: string;
+    shadow: string;
   }
 }
 
@@ -31,6 +33,7 @@ export const theme = createTheme({
     color3: "#F6FFD5",
     color4: "#55DDFF",
     color5: "#AAFFEE",
-    color6: "#FFCCAA"
+    color6: "#FFCCAA",
+    shadow: "#AAAAAA"
   }
 });

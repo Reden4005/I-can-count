@@ -1,11 +1,21 @@
 import { Outlet, Route, Routes } from "react-router-dom";
-import { Home } from "../pages";
+import { Home, LimitPage } from "../pages";
 import { ROUTES } from "../types/ROUTES";
 
 export const Routing: React.FC = () => {
   return (
     <Routes>
-      <Route path={ROUTES.home} element={<Home />} />
+      <Route
+        path={ROUTES.home}
+        element={
+          <>
+            <Home />
+            <Outlet />
+          </>
+        }
+      >
+        <Route path={ROUTES.limit} element={<LimitPage />} />
+      </Route>
       <Route path={ROUTES["not-found"]} element={<div>Error</div>} />
       <Route
         path={ROUTES.addition}

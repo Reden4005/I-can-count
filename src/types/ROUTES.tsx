@@ -10,7 +10,8 @@ export enum OperationRoute {
 export enum BaseRoute {
   Home = "home",
   NotFound = "not-found",
-  Chart = "chart"
+  Chart = "chart",
+  Limit = "limit"
 }
 
 export type AppRouteType = BaseRoute | OperationRoute;
@@ -22,5 +23,6 @@ export const ROUTES: Record<AppRouteType, string> = Object.freeze({
   [OperationRoute.Substraction]: "/substraction",
   [OperationRoute.Multiplication]: "/multiplication",
   [OperationRoute.Division]: "/division",
-  [BaseRoute.Chart]: "chart"
+  [BaseRoute.Chart]: "chart",
+  [BaseRoute.Limit]: "limit"
 });
