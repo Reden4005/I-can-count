@@ -7,12 +7,11 @@ interface ButtonProps {
   onClick?: () => void;
   sx?: SxProps<Theme>;
   type?: "button" | "submit" | "reset" | undefined;
+  disabled?: boolean;
 }
 
-export const Button: React.FC<ButtonProps> = ({ text, onClick, variant1, sx, type }) => {
-  return (
-    <Styled.Button onClick={onClick} variant1={variant1} sx={sx} type={type}>
-      {text}
-    </Styled.Button>
-  );
-};
+export const Button: React.FC<ButtonProps> = ({ text, onClick, variant1, sx, type, disabled }) => (
+  <Styled.Button onClick={onClick} variant1={variant1} sx={sx} type={type} disabled={disabled}>
+    {text}
+  </Styled.Button>
+);

@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { isVisible } from "../../data/slices/limitWindow";
-import { ROUTES } from "../../types/ROUTES";
+import { ROUTES } from "../../types";
 import { Button } from "../Button";
 import * as Styled from "./style";
 

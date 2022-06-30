@@ -1,5 +1,3 @@
-import i18n from "i18next";
-
 export enum OperationRoute {
   Addition = "addition",
   Substraction = "substraction",

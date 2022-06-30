@@ -1,6 +1,6 @@
 import { Outlet, Route, Routes } from "react-router-dom";
 import { Home, LimitPage } from "../pages";
-import { ROUTES } from "../types/ROUTES";
+import { ROUTES } from "../types";
 
 export const Routing: React.FC = () => {
   return (
